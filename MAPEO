@@ -1,0 +1,106 @@
+Cargo al que postula: CANDIDATO["data"]["Data"]["TXCARGOELECCION"]
+Sexo: CANDIDATO["Data"]["Data"]["TXSEXO"]
+Fecha de nacimiento: CANDIDATO["Data"]["Data"]["FENACIMIENTO"]
+Pais de nacimiento: CANDIDATO["Data"]["Data"]["TXPAISNACIMIENTO"]
+Departamento de nacimiento: CANDIDATO["Data"]["Data"]["TXNACIDEPARTAMENTO"]
+Provincia de nacimiento: CANDIDATO["Data"]["Data"]["TXNACIPROVINCIA"]
+Distrito de nacimiento: CANDIDATO["Data"]["Data"]["TXNACIDISTRITO"]
+Id Hoja de vida: CANDIDATO["Data"]["Data"]["IDHOJAVIDA"]
+
+Tiene Info Basica: CANDIDATO["Data"]["Data"]["EDUCACIONBASICAS"]["#"]["TXTIENEBASICA"]
+Tiene Primaria: CANDIDATO["Data"]["Data"]["EDUCACIONBASICAS"]["#"]["TXTIENEPRIMARIA"]
+Concluyó Primaria: CANDIDATO["Data"]["Data"]["EDUCACIONBASICAS"]["#"]["TXCONCLUYOPRIMARIA"]
+Tiene Secundaria: CANDIDATO["Data"]["Data"]["EDUCACIONBASICAS"]["#"]["TXTIENESECUNDARIA"]
+Concluyó Secundaria: CANDIDATO["Data"]["Data"]["EDUCACIONBASICAS"]["#"]["TXCONCLUYOSECUNDARIA"]
+
+Tiene Estudio Tecnico (1/0): CANDIDATO["Data"]["Data"]["EDUCACIONTECNICAS"]["#"]["FGTENGOEDUTECNICO"]
+Centro de estudios: CANDIDATO["Data"]["Data"]["EDUCACIONTECNICAS"]["#"]["TXCENESTUDIOTECNICO"]
+Carrera técnica: CANDIDATO["Data"]["Data"]["EDUCACIONTECNICAS"]["#"]["TXCARRERATECNICO"]
+Concluida: CANDIDATO["Data"]["Data"]["EDUCACIONTECNICAS"]["#"]["TXCONCLUYO"]
+
+Tiene Estudio No Universitario (NO: ""): CANDIDATO["Data"]["Data"]["EDUCACIONNOUNIVERSITARIAS"]["#"]["TXCENTROESTUDIONOUNI"]
+Centro de estudio: CANDIDATO["Data"]["Data"]["EDUCACIONNOUNIVERSITARIAS"]["#"]["TXCENTROESTUDIONOUNI"]
+Carrera: CANDIDATO["Data"]["Data"]["EDUCACIONNOUNIVERSITARIAS"]["#"]["TXCARRERANOUNI"]
+Concluyó: CANDIDATO["Data"]["Data"]["EDUCACIONNOUNIVERSITARIAS"]["#"]["TXCONCLUYO"]
+
+Tiene estudio Universitario (NO: ""): CANDIDATO["Data"]["Data"]["EDUCACIONUNIVERSITARIAS"]["#"]["TXUNIVERSIDAD"]
+Universidad: CANDIDATO["Data"]["Data"]["EDUCACIONUNIVERSITARIAS"]["#"]["TXUNIVERSIDAD"]
+Carrera: CANDIDATO["Data"]["Data"]["EDUCACIONUNIVERSITARIAS"]["#"]["TXCARRERAUNI"]
+Concluyó: CANDIDATO["Data"]["Data"]["EDUCACIONUNIVERSITARIAS"]["#"]["TXCONCLUYO"]
+Bachiller: CANDIDATO["Data"]["Data"]["EDUCACIONUNIVERSITARIAS"]["#"]["TXBACHILLER"]
+Título: CANDIDATO["Data"]["Data"]["EDUCACIONUNIVERSITARIAS"]["#"]["TXTITULO"]
+
+Tiene estudio Postgrado (NO: ""): CANDIDATO["Data"]["Data"]["EDUCACIONPOSTGRADOS"]["#"]["TXCENESTUDIOPOSGRADO"]
+Centro de estudio: CANDIDATO["Data"]["Data"]["EDUCACIONPOSTGRADOS"]["#"]["TXCENESTUDIOPOSGRADO"]
+Especialidad: CANDIDATO["Data"]["Data"]["EDUCACIONPOSTGRADOS"]["#"]["TXESPECIALIDADPOSGRADO"]
+Concluyo: CANDIDATO["Data"]["Data"]["EDUCACIONPOSTGRADOS"]["#"]["TXCONCLUYO"]
+Egresado: CANDIDATO["Data"]["Data"]["EDUCACIONPOSTGRADOS"]["#"]["TXEGRESADO"]
+
+//////////////////////
+EXPERIENCIA LABORAL
+No tiene experiencia laboral (NO: ""): CANDIDATO["Data"]["Data"]["EXPERIENCIAS"]["#"]["TXCENTROTRABAJO"]
+Centro de trabajo: CANDIDATO["Data"]["Data"]["EXPERIENCIAS"]["#"]["TXCENTROTRABAJO"]
+Ocupación: CANDIDATO["Data"]["Data"]["EXPERIENCIAS"]["#"]["TTXOCUPACIONPROFESION"]
+Periodo:
+CANDIDATO["Data"]["Data"]["EXPERIENCIAS"]["#"]["TXANIOTRABAJODESDE"]
+CANDIDATO["Data"]["Data"]["EXPERIENCIAS"]["#"]["TXANIOTRABAJOHASTA"]
+
+CARGOS PARTIDARIOS O DE ELECCIÓN POPULAR
+
+Elección popular
+No tiene cargo por elección popular (NO: ""): CANDIDATO["Data"]["Data"]["CARGOPARELECCIONS"]["#"]["TXORGPOLCARGOELEC"]
+Organización política: CANDIDATO["Data"]["Data"]["CARGOPARELECCIONS"]["#"]["TXORGPOLCARGOELEC"]
+Cargo: CANDIDATO["Data"]["Data"]["CARGOPARELECCIONS"]["#"]["TXCARGOELECCION2"]
+Periodo:
+CANDIDATO["Data"]["Data"]["CARGOPARELECCIONS"]["#"]["TXANIOCARGOELECDESDE"]
+CANDIDATO["Data"]["Data"]["CARGOPARELECCIONS"]["#"]["TXANIOCARGOELECHASTA"]
+
+Cargo partidario
+No tiene cargo partidario (NO: ""): CANDIDATO["Data"]["Data"]["CARGOPARTIDARIOS"]["#"]["TXORGPOLCARGOPARTIDARIO"]
+Organización política: CANDIDATO["Data"]["Data"]["CARGOPARTIDARIOS"]["#"]["TXORGPOLCARGOPARTIDARIO"]
+Cargo: CANDIDATO["Data"]["Data"]["CARGOPARTIDARIOS"]["#"]["TXCARGOPARTIDARIO"]
+Periodo:
+CANDIDATO["Data"]["Data"]["CARGOPARTIDARIOS"]["#"]["TXANIOCARGOPARTIDESDE"]
+CANDIDATO["Data"]["Data"]["CARGOPARTIDARIOS"]["#"]["TXANIOCARGOPARTIHASTA"]
+
+Renuncias
+No tiene renuncia (NO: ""): CANDIDATO["Data"]["Data"]["RENUNCIAS"]["#"]["TXORGPOLRENUNCIAOP"]
+Organización política: CANDIDATO["Data"]["Data"]["RENUNCIAS"]["#"]["TXORGPOLRENUNCIAOP"]
+Año de renuncia: CANDIDATO["Data"]["Data"]["RENUNCIAS"]["#"][TXANIORENUNCIAOP"]
+Fecha de registro: CANDIDATO["Data"]["Data"]["RENUNCIAS"]["#"]["FEREGISTRO"]
+
+RELACIÓN DE SENTENCIAS
+
+Ámbito penal - Sentencia penal
+No tiene sentencia penal (NO: ""): CANDIDATO["Data"]["Data"]["SENTENCIAPENALS"]["#"]["TXDELITOPENAL"]
+Delito: CANDIDATO["Data"]["Data"]["SENTENCIAPENALS"]["#"]["TXDELITOPENAL"]
+Fallo o pena: CANDIDATO["Data"]["Data"]["SENTENCIAPENALS"]["#"]["TXFALLOPENAL"]
+Fecha de sentencia: CANDIDATO["Data"]["Data"]["SENTENCIAPENALS"]["#"]["FESENTENCIAPENAL"]
+Modalidad: CANDIDATO["Data"]["Data"]["SENTENCIAPENALS"]["#"]["TXMODALIDAD"]
+Cumplimiento del fallo: CANDIDATO["Data"]["Data"]["SENTENCIAPENALS"]["#"]["TXCUMPLEFALLO"]
+
+Otras sentencias - Sentencia civil
+No tiene sentencia civil o otro sentencia (NO: ""): CANDIDATO["Data"]["Data"]["SENTENCIACIVILS"]["#"]["TXMATERIASENTENCIA"]
+Delito: CANDIDATO["Data"]["Data"]["SENTENCIACIVILS"]["#"]["TXMATERIASENTENCIA"]
+Fallo o pena: CANDIDATO["Data"]["Data"]["SENTENCIACIVILS"]["#"]["TXFALLOOBLIGA"]
+//////////////////////
+
+Tiene ingresos (SI: 1): CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["FGTENGOINGRESOS"]
+Remuneracion bruta anual - publico: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["FLREMUBRUTAPUBLICO"]
+Remuneracion bruta anual - privado: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["FLREMUBRUTAPRIVADO"]
+Renta bruta anual individual - publico: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["FLRENTAINDIVIDUALPUBLICO"]
+Renta bruta anual individual - privado: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["FLRENTAINDIVIDUALPRIVADO"]
+Otros ingresos anuales - publico: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["FLOTROINGRESOPUBLICO"]
+Otros ingresos anuales - privado: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["FLOTROINGRESOPRIVADO"]
+Total remuneracion bruta anual: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["TOTALREMBRUTA"]
+Total renta bruta anual indivitual: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["TOTALRENTA"]
+Total otros ingresos anuales: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["TOTALOTRO"]
+Total general: CANDIDATO["Data"]["Data"]["INGRESOS"]["#"]["TOTAL"]
+
+Tiene inmueble (SI: 1): CANDIDATO["Data"]["Data"]["BIENINMUEBLES"]["#"]["FGTENGOINMUEBLE"]
+Tipo de bien: CANDIDATO["Data"]["Data"]["BIENINMUEBLES"]["#"]["TXTIPOBIENINMUEBLE"]
+Valor del bien: CANDIDATO["Data"]["Data"]["BIENINMUEBLES"]["#"]["FLAUTOVALUO"]
+
+Tiene mueble (SI: 1): CANDIDATO["Data"]["Data"]["BIENMUEBLES"]["#"]["FGTENGOBIENMUEBLE"]
+Bien: CANDIDATO["Data"]["Data"]["BIENMUEBLES"]["#"]["TXVEHICULOB"]
+Valor del bien: CANDIDATO["Data"]["Data"]["BIENMUEBLES"]["#"]["FLVALOR"]
